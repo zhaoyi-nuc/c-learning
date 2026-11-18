@@ -1,5 +1,5 @@
 ﻿#include <stdio.h>
-//计算斐波那契数列第20项(递归)
+//计算斐波那契数列的20项
 int fib(int n)
 {
 	if (n <= 2)
@@ -10,6 +10,6 @@ int fib(int n)
 }
 int main(void)
 {
-	printf("第20项=%d\n", fib(20));
+	printf("第20项是%d\n", fib(20));
 	return 0;
 }
