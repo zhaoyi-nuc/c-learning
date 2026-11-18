@@ -11,6 +11,5 @@ int fib(int n)
 int main(void)
 {
 	printf("第20项=%d\n", fib(20));
-
 	return 0;
 }
